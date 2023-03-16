@@ -37,7 +37,7 @@ crontab -e
 - insert the collected data into the created tables in database by host_info.sh and host_usage.sh bash scripts
 - finally, the data is stored every minute by using crontab
 ## Architecture
-![This is an image]( file:///home/centos/dev/jarvis_data_eng_FatemehKhaksar/linux_sql/assets/linuxcluster.jpg)
+![my diagram](/home/centos/dev/jarvis_data_eng_FatemehKhaksar/linux_sql/assets/linuxcluster.jpg)
 
 ## Scripts
 
@@ -103,7 +103,7 @@ crontab -l
 | l2_cache	     | int4	 | NOT NULL |
 | "timestamp"	  |timestamp	| NULL |
 | total_mem	    |int4	| NULL |
-ls
+
 
 - `host_usage`
 
