@@ -96,6 +96,7 @@ crontab -l
 | l2_cache	     | int4	 | NOT NULL |
 | "timestamp"	  |timestamp	| NULL |
 | total_mem	    |int4	| NULL |
+ls
 
 - `host_usage`
 
