@@ -37,7 +37,7 @@ crontab -e
 - insert the collected data into the created tables in database by host_info.sh and host_usage.sh bash scripts
 - finally, the data is stored every minute by using crontab
 ## Architecture
-Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
+. Image must be saved to the `assets` directory.
 
 ## Scripts
 
