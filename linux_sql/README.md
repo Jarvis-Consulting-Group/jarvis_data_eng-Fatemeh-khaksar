@@ -37,12 +37,20 @@ crontab -e
 - insert the collected data into the created tables in database by host_info.sh and host_usage.sh bash scripts
 - finally, the data is stored every minute by using crontab
 ## Architecture
+<<<<<<< HEAD
 Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
+=======
+. Image must be saved to the `assets` directory.
+>>>>>>> feature/psql_docker
 
 ## Scripts
 
 - psql_docker.sh
+<<<<<<< HEAD
   The script is used to create ,start and stop the psql instance on docker.
+=======
+The script is used to create ,start and stop the psql instance on docker.
+>>>>>>> feature/psql_docker
 ```
 ./scripts/psql_docker.sh start|stop|create [db_username][db_password]
 
@@ -56,18 +64,30 @@ Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io web
 ./scripts/psql_docker.sh stop
 ```
 - host_info.sh
+<<<<<<< HEAD
   this script gathers the host hardware data and then the data is inserted into the psql database. This script is executed once.
+=======
+this script gathers the host hardware data and then the data is inserted into the psql database. This script is executed once.
+>>>>>>> feature/psql_docker
 
 ```
 ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
 ```
 - host_usage.sh
+<<<<<<< HEAD
   This script gathers the host usage data and then the data is inserted into the psql database every minute by cron job.
+=======
+This script gathers the host usage data and then the data is inserted into the psql database every minute by cron job.
+>>>>>>> feature/psql_docker
 ```
 ./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
 ```
 - crontab
+<<<<<<< HEAD
   Is used to execute the host_usage script every minute.
+=======
+Is used to execute the host_usage script every minute.
+>>>>>>> feature/psql_docker
 ```
 # edit crontab job
 crontab -e
