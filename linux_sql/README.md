@@ -38,7 +38,7 @@ crontab -e
 - finally, the data is stored every minute by using crontab
 ## Architecture
 
-![my diagram](/home/centos/dev/jarvis_data_eng_FatemehKhaksar/linux_sql/assets/linuxcluster.jpg)
+![my diagram](./assets/linuxcluster.jpg)
 
 ## Scripts
 
