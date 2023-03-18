@@ -125,4 +125,4 @@ crontab -l
 Using docker for Containerization of the database,creating crontab and using Github for controling the source code. 
 
 # Improvement
-- Trouble shouting in bash scripts
+- Troubleshooting in bash scripts
