@@ -1,44 +1,41 @@
 # Preferred name (Characters only)
 name: "Fatemeh Khaksar"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: git@github.com:Jarvis-Consulting-Group/jarvis_data_eng-Fatemeh-khaksar.git
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
 
-# Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+summary: I am Fatemeh, Completed undergraduate studies in Computer Engineering from Payame Noor University, 2011.I have been working in an educational institution since sep 2011-current as a computer support. During my work life i had this chance to collaborate with different kind of people whice helped me to enhance my communication skill.I have found myself a person who likes to be challenged and learn new things.Data engineering is a field that gives me the opportunity to improve my critical thinking and  problem solving skills and I eager to work in place with divers people ,which helps me to be more innovative person as this  divers community bring with itself different ideas.  
+
 skills:
   # At least 5 skills
   proficient:
-    - Java
     - Linux/Bash
     - RDBMS/SQL
     - Agile/Scrum
     - Git
+    - Cloud Platform
+    - Docker
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - Python
+    - Bisuness Accounting
+    - Microsoft Office
+    - Adob Photoshop
+    - Pycharm
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Django
+    - Machin Learning
+    - Html/Css
+    - Wordpress
+    - Desining
 
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    
+    description: "I designed a monitoring agent for linux clustring.Udes docker to create postgreSQL for data persistance.I wrote bash scripts to collect hardware spesifications and resource usage for each host in the cluster.Then, I used crontab to automate the collection of resource usage data.Testing the MVP by using multiple queries on a single machine and deployed it by using Git and Docker."
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
@@ -74,27 +71,29 @@ highlighted_projects:
     git_url:
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
-#List of professional experience
-#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
-  #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+ 
+  - title: "Data Engineer"
     company: "Jarvis"
-    duration: "2020-present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    duration: "Feb 2023-present"
+    description: " "Conducted system analysis and implemented a Linux cluster program for Linux administrators at Jarvis, adhered to the requirements of software development life cycle in a highly agile environment, defined and documented the scope of projects for distribution within teams, planned computer systems using information engineering and structured analysis, key technologies used-docker, google cloud platform to provision Jarvis Remote Desktop, postgres SQL, shell scripting and IDE. Achievements: Successfully completed the project and was assigned the next data driven project."
+
   - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    company: "Volta Institution"
+    duration: "Sep 2011-current"
+    description: "Teaching junior students the basics of Microsoft Office"
+
+  - title: "Computer Support"
+    company: "Volta Institution"
+    duration: "Sep 2011-current"
+    description: "Upgrading systems, Analyze and support requests for about 50 computer system service, Installing and updating hardware and software, Designing brochures using Adobe Photoshop" 
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "Payame Noor University"
+    duration: "2006-2011"
+    degree: "Bachelor Software Engineering"
+    department: " Computer Engineering"
     # optional
     awards_achievements: 
       - "Scholarship"
@@ -118,6 +117,7 @@ others:
       - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Part-time Assistant, Payame Noor University"
+      - "Vollyball player"
+      - "Oil painting,handcraft leather bags, Reading books"
+      - "Volunteer Moderator of English Language Club"
