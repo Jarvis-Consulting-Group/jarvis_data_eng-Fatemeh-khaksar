@@ -1,13 +1,13 @@
-# Preferred name (Characters only)
+
 name: "Fatemeh Khaksar"
-# Your GitHub repo root URL
+
 github_repo_root_url: git@github.com:Jarvis-Consulting-Group/jarvis_data_eng-Fatemeh-khaksar.git
 
 
-summary: I am Fatemeh, Completed undergraduate studies in Computer Engineering from Payame Noor University, 2011.I have been working in an educational institution since sep 2011-current as a computer support. During my work life i had this chance to collaborate with different kind of people whice helped me to enhance my communication skill.I have found myself a person who likes to be challenged and learn new things.Data engineering is a field that gives me the opportunity to improve my critical thinking and  problem solving skills and I eager to work in place with divers people ,which helps me to be more innovative person as this  divers community bring with itself different ideas.  
+summary: I am Fatemeh, Completed undergraduate studies in Computer Engineering at Payame Noor University, in 2011. I have been working in an educational institution since Sep 2011-current as a computer support. During my work life, I had this chance to collaborate with different kinds of people which helped me to enhance my communication skill. I have found myself a person who likes to be challenged and learn new things. Data engineering is a field that allows me to improve my critical thinking and problem-solving skills and I am eager to work in a place with diverse people, which helps me to be a more innovative person as this diverse community bring with itself different ideas.  
 
-skills:
-  # At least 5 skills
+skill:
+  
   proficient:
     - Linux/Bash
     - RDBMS/SQL
@@ -15,26 +15,26 @@ skills:
     - Git
     - Cloud Platform
     - Docker
-  # At least 5 skills
+
   competent:
     - Python
-    - Bisuness Accounting
+    - Business Accounting
     - Microsoft Office
-    - Adob Photoshop
+    - Adobe Photoshop
     - Pycharm
-  # At least 5 skills
+  
   familiar:
     - Django
     - Machin Learning
-    - Html/Css
-    - Wordpress
-    - Desining
+    - Html/CSS
+    - WordPress
+    - Designing
 
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    description: "I designed a monitoring agent for linux clustring.Udes docker to create postgreSQL for data persistance.I wrote bash scripts to collect hardware spesifications and resource usage for each host in the cluster.Then, I used crontab to automate the collection of resource usage data.Testing the MVP by using multiple queries on a single machine and deployed it by using Git and Docker."
+    description: "I designed a monitoring agent for Linux clustering. Use docker to create PostgreSQL for data persistence. I wrote bash scripts to collect hardware specifications and resource usage for each host in the cluster. Then, I used crontab to automate the collection of resource usage data. Testing the MVP by using multiple queries on a single machine and deploying it by using Git and Docker."
  
   - name: "Core Java Apps"
     git_url: "/core_java"
@@ -70,7 +70,7 @@ professional_experience:
   - title: "Data Engineer"
     company: "Jarvis"
     duration: "Feb 2023-present"
-    description: " "Conducted system analysis and implemented a Linux cluster program for Linux administrators at Jarvis, adhered to the requirements of software development life cycle in a highly agile environment, defined and documented the scope of projects for distribution within teams, planned computer systems using information engineering and structured analysis, key technologies used-docker, google cloud platform to provision Jarvis Remote Desktop, postgres SQL, shell scripting and IDE. Achievements: Successfully completed the project and was assigned the next data driven project."
+    description: " "
 
   - title: "Tutor"
     company: "Volta Institution"
@@ -80,8 +80,8 @@ professional_experience:
   - title: "Computer Support"
     company: "Volta Institution"
     duration: "Sep 2011-current"
-    description: "Upgrading systems, Analyze and support requests for about 50 computer system service, Installing and updating hardware and software, Designing brochures using Adobe Photoshop" 
-
+    description:  "Upgrading systems, Analyzing and support requests for about 50 computer system services, Installing and updating hardware and software, Designing brochures using Adobe Photoshop."
+ 
 #List of edcuation
 education: 
   - school_name: "Payame Noor University"
@@ -91,9 +91,9 @@ education:
    
 
 others:
-  - title: "Activities/Hobbies"
+   - title: "Activities/Hobbies"
     bullets:
       - "Part-time Assistant, Payame Noor University"
-      - "Vollyball player"
-      - "Oil painting,handcraft leather bags, Reading books"
+      - "Volleyball player"
+      - "Oil painting, handcraft leather bags, Reading books"
       - "Volunteer Moderator of English Language Club"
