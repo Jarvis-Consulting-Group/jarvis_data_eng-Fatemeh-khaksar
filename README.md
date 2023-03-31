@@ -1,64 +1,85 @@
-# Fatemeh Khaksar . Jarvis Consulting
+# Fatemeh Khaksar 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+summary: I am Fatemeh, Completed undergraduate studies in Computer Engineering at Payame Noor University, in 2011. I have been working in an educational institution since Sep 2011-current as a computer support. During my work life, I had this chance to collaborate with different kinds of people which helped me to enhance my communication skill. I have found myself a person who likes to be challenged and learn new things. Data engineering is a field that allows me to improve my critical thinking and problem-solving skills and I am eager to work in a place with diverse people, which helps me to be a more innovative person as this diverse community bring with itself different ideas.
+
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:**  
+      Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+    - Cloud Platform
+    - Docker
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Competent:** 
+      Python
+    - Business Accounting
+    - Microsoft Office
+    - Adobe Photoshop
+    - Pycharm
+
+**Familiar:** 
+      Django
+    - Machine Learning
+    - Html/CSS
+    - WordPress
+    - Designing
+    
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-Fatemeh-khaksar
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [GitHub]: 
+"I designed a monitoring agent for Linux clustering. Use docker to create PostgreSQL for data persistence. I wrote bash scripts to collect hardware specifications and resource usage for each host in the cluster. Then, I used crontab to automate the collection of resource usage data. Testing the MVP by using multiple queries on a single machine and deploying it by using Git and Docker."
+
+
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Enginieerr, Jarvis (2023-present)**: Using technologies such as java,linux and docker docker for creating and testing several applications. I had this opportunity to communicate with a team members through Agile methodology. Participating i daily scrum meetings for monitoring by senior developers.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+
+** Tutor,  company: Volta Institution
+    duration: "Sep 2011-current"
+    description: Teaching junior students the basics of Microsoft Office
+    
+    
+** Computer Support, company: Volta Institution
+    duration: "Sep 2011-current"
+    description:  Upgrading systems, Analyzing and support requests for about 50 computer system services, Installing and updating hardware and software, Designing    brochures using Adobe Photoshop.
+
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**   school_name: Payame Noor University
+    duration: "2006-2011"
+    degree: Bachelor Software Engineering
+    department: Computer Engineering
+    
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+**   Part-time Assistant, Payame Noor University
+    - Volleyball player
+    - Oil painting, handcraft leather bags, Reading books
+    - Volunteer Moderator of English Language Club
+
