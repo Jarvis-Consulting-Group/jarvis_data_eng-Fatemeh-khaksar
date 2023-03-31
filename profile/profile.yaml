@@ -25,7 +25,7 @@ skill:
   
   familiar:
     - Django
-    - Machin Learning
+    - Machine Learning
     - Html/CSS
     - WordPress
     - Designing
@@ -36,30 +36,34 @@ jarvis_projects:
     git_url: "/linux_sql"
     description: "I designed a monitoring agent for Linux clustering. Use docker to create PostgreSQL for data persistence. I wrote bash scripts to collect hardware specifications and resource usage for each host in the cluster. Then, I used crontab to automate the collection of resource usage data. Testing the MVP by using multiple queries on a single machine and deploying it by using Git and Docker."
  
-  - name: "Core Java Apps"
-    git_url: "/core_java"
+  - name: "Core Java"
+    git_url: "/core_java/jdbc"
     description:
       - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Java Database Connectivity(JDBC) is a standard application programming interface(API), which allows the java program access to the database management system. I used IntelliJ IDE and utilized Maven, which is chiefly used for java based projects for managing packages and dependencies. PostgreSQl databade is used to persist data into database instance after runing the Docker container. I implimented a data access object(DAO) that CRUD on object in the project(DTO)."
       - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+
   - name: "Springboot App"
     git_url: "/springboot"
     description: ""
+
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
     description: ""
+
   - name: "Hadoop"
     git_url: "/hadoop"
     description: ""
+
   - name: "Spark"
     git_url: "/spark"
     description: ""
+
   - name: "Cloud/DevOps"
     git_url: "/cloud_devops"
     description: ""
 
-# List of personal or academic projects
-# Feel free to add more projects
+
 highlighted_projects:
     #project name
   - name: 
@@ -70,7 +74,7 @@ professional_experience:
   - title: "Data Engineer"
     company: "Jarvis"
     duration: "Feb 2023-present"
-    description: " "
+    description: " Using technologies such as java,linux and docker docker for creating and testing several applications. I had this opportunity to communicate with a team members through Agile methodology. Participating i daily scrum meetings for monitoring by senior developers."
 
   - title: "Tutor"
     company: "Volta Institution"
