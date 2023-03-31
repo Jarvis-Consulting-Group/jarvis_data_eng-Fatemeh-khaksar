@@ -42,7 +42,8 @@ Project source code: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - JDBC App: Java Database Connectivity(JDBC) is a standard application programming interface(API), which allows the java program access to the database management system. I used IntelliJ IDE and utilized Maven, which is chiefly used for java based projects for managing packages and dependencies. PostgreSQl databade is used to persist data into database instance after runing the Docker container. I implimented a data access object(DAO) that CRUD on object in the project(DTO)."
+
   - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   
 
