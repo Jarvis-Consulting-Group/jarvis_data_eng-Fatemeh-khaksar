@@ -85,18 +85,31 @@ professional_experience:
     company: "Volta Institution"
     duration: "Sep 2011-current"
     description:  "Upgrading systems, Analyzing and support requests for about 50 computer system services, Installing and updating hardware and software, Designing brochures using Adobe Photoshop."
- 
+
+
+
+    Maternity leave: I was on maternity leave from December 2015 to January 2017
+
+
 #List of edcuation
 education: 
   - school_name: "Payame Noor University"
     duration: "2006-2011"
     degree: "Bachelor Software Engineering"
     department: " Computer Engineering"
-   
+
+
+Certificates:
+  - "Adobe Photoshop, Khane Kargar Esfahan, April 2013"
+  - "Business Accounting, Khane Kargar Esfahan, June 2013"
+  - "Corel Draw, Khane Kargar Esfahan, November 2013"
+  - "Academic IELTS score 6.5 ,2021"
+  - "Python , Mehregan Institution,2022"
+  - "Machine learning, Mehregan Institution, 2022 "
 
 others:
    - title: "Activities/Hobbies"
-    bullets:
+     bullets:
       - "Part-time Assistant, Payame Noor University"
       - "Volleyball player"
       - "Oil painting, handcraft leather bags, Reading books"
