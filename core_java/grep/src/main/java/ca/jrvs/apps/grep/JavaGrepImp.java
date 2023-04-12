@@ -1,15 +1,13 @@
 package ca.jrvs.apps.grep;
 
 import org.apache.log4j.BasicConfigurator;
-import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-
 
 public class JavaGrepImp implements JavaGrep{
     final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
@@ -17,7 +15,35 @@ public class JavaGrepImp implements JavaGrep{
     private String rootPath;
     private String outFile;
 
+    @Override
+    public String getRegex() {
+        return regex;
+    }
 
+    @Override
+    public void setRegex(String regex) {
+        this.regex = regex;
+    }
+
+    @Override
+    public String getRootPath() {
+        return rootPath;
+    }
+
+    @Override
+    public void setRootPath(String rootPath) {
+        this.rootPath = rootPath;
+    }
+
+    @Override
+    public String getOutFile() {
+        return outFile;
+    }
+
+    @Override
+    public void setOutFile(String outFile) {
+        this.outFile = outFile;
+    }
 
     public static void main(String[] args) {
         if(args.length != 3){
@@ -31,7 +57,6 @@ public class JavaGrepImp implements JavaGrep{
         javaGrepImp.setRootPath(args[1]);
         javaGrepImp.setOutFile(args[2]);
 
-
         try{
             javaGrepImp.process();
         }catch (Exception ex){
@@ -39,14 +64,12 @@ public class JavaGrepImp implements JavaGrep{
         }
     }
 
-
-
-
     @Override
     public void process() throws IOException {
+        List<File> files = listFiles(getRootPath());
         List<String> matchedLines = new ArrayList<>();
-        for ( File file : listFiles(getRootPath())){
-            for (String line : readLines(file)){
+        for (File file: files) {
+            for (String line: readLines(file)) {
                 if (containsPattern(line)){
                     matchedLines.add(line);
                 }
@@ -55,64 +78,64 @@ public class JavaGrepImp implements JavaGrep{
         writeToFile(matchedLines);
     }
 
-
     @Override
-    public List<File> listFiles(String rootDir) {
-        return null;
+    public List<File> listFiles(String rootDir) throws IOException {
+        List<File> files = new ArrayList<>();
+        File dir = new File(rootDir);
+        File[] allFiles = dir.listFiles();
+        for(File file : allFiles){
+            if(file.isDirectory()){
+                files.addAll(listFiles(file.getAbsolutePath()));
+            }
+            else{
+                files.add(file);
+            }
+        }
+        return files;
     }
 
     @Override
-    public List<String> readLines(File inputFile) {
-        return null;
-    }
+    public List<String> readLines(File inputFile) throws IOException {
+        List<String> lines = new ArrayList<>();
+        try{
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
+            String line;
 
+            while ((line = bufferedReader.readLine()) != null){
+                lines.add(line);
+            }
+            bufferedReader.close();
+            return lines;
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IllegalArgumentException e){
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     @Override
-    public Boolean containsPattern(String line) {
-        return line.matches(getRegex());
+    public boolean containsPattern(String line) {
+        if(line.matches(getRegex())){
+            return true;
+        }
+        return false;
     }
-
 
     @Override
     public void writeToFile(List<String> lines) throws IOException {
-
+        try{
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outFile, true));
+            for (String line: lines) {
+                bufferedWriter.write(line);
+                bufferedWriter.newLine();
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 
-    @Override
-    public String getRootPath() {
-        return rootPath;
-    }
 
-
-    @Override
-    public void setRootPath(String rootPath) {
-        this.rootPath = rootPath;
-
-    }
-
-
-    @Override
-    public String getRegex() {
-        return regex;
-    }
-
-
-    @Override
-    public void setRegex(String regex) {
-        this.regex = regex;
-
-    }
-
-    @Override
-    public String getOutFile() {
-        return outFile;
-    }
-
-
-    @Override
-    public void setOutFile(String outFile) {
-        this.outFile = outFile;
-
-    }
 }

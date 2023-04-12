@@ -5,62 +5,48 @@ import java.io.IOException;
 import java.util.List;
 
 public interface JavaGrep {
-
     /**
-     * Top level search workflow
+     *
      * @throws IOException
      */
-
     void process() throws IOException;
 
-
     /**
-     * Travers a given directory and return all files
+     * Transverse the directory and return all files
      * @param rootDir input directory
-     * @return files under the rootDir
+     * @return files under root directory.
      */
-    List<File> listFiles(String rootDir);
-
+    List<File> listFiles(String rootDir) throws IOException;
 
     /**
-     * Read a file and return all lines
+     * Read a file and return all the lines
      *
-     * Explain FileReader, BufferReader, and character encoding
-     *
-     * @param inputFile file to be read
+     * @param inputFile
      * @return lines
-     * @throws IllegalArgumentException if a given inputFile is not a file
+     * @throws IllegalArgumentException if a given inputfile is not a file
      */
-    List<String> readLines(File inputFile);
-
+    List<String> readLines(File inputFile) throws IOException;
 
     /**
-     * check if the line contains the regex pattern (passed by user)
+     * Check if a line contains the regex pattern passed
      * @param line input string
-     * @return true if there is math
+     * @return true if there is a match
      */
-    Boolean containsPattern(String line);
-
+    boolean containsPattern(String line);
 
     /**
-     * write lines to a file
+     * Write lines to a file
      *
-     * Explore: FileOutputStream, OutputStreamWriter, and BufferWriter
-     *
-     * @param lines matched lines
+     * @param lines matched line
      * @throws IOException if write failed
      */
     void writeToFile(List<String> lines) throws IOException;
 
     String getRootPath();
+
     void setRootPath(String rootPath);
-
     String getRegex();
-
     void setRegex(String regex);
-
     String getOutFile();
-
     void setOutFile(String outFile);
 }
-
