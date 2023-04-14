@@ -18,8 +18,8 @@ Run using jar file:
 Run using Docker Image:
 ````
 # pull docker image
-docker pull oreoluwalawal/grep
-docker run --rm -v `pwd`/data:/data -v `pwd`/log:/log oreoluwalawal/grep ${regex} ${rootpath} ${outfile}
+docker pull fatemehkhaksar/grep
+docker run --rm -v `pwd`/data:/data -v `pwd`/log:/log fatemehkhaksar/grep ${regex} ${rootpath} ${outfile}
 ````
 
 # Implemenation
