@@ -83,6 +83,7 @@ public class JavaGrepImp implements JavaGrep{
         List<File> files = new ArrayList<>();
         File dir = new File(rootDir);
         File[] allFiles = dir.listFiles();
+        int i = 0;
         for(File file : allFiles){
             if(file.isDirectory()){
                 files.addAll(listFiles(file.getAbsolutePath()));
