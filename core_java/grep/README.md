@@ -1,5 +1,5 @@
 # Introduction
-The Java Grep Application is an application that outputs mathematically formatted lines in a text file after searching a file for a particular pattern.The application filters recursively over the subfoulders using the root directory as input. To read and write into files, the BufferReader, FileReader, BufferWriter, and FileWriter are used.Maven is used to create the application and manage dependencies.Docker is used to package the program, which is then submitted to Docker Hub.
+The Java Grep Application is an application that outputs mathematically formatted lines in a text file after searching a file for a particular pattern. The application filters recursively over the subfolders using the root directory as input. To read and write into files, the BufferReader, FileReader, BufferWriter, and FileWriter are used. Maven is used to creating the application and manage dependencies. Docker is used to package the program, which is then submitted to Docker Hub.
 
 # Quick Start
 There are two ways to use the app, firstly 3 inputs  are required;
