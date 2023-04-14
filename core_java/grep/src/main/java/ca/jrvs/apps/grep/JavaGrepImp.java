@@ -1,8 +1,7 @@
 package ca.jrvs.apps.grep;
 
-import org.apache.log4j.BasicConfigurator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -10,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class JavaGrepImp implements JavaGrep{
-    final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
+    //final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
     private String regex;
     private String rootPath;
     private String outFile;
@@ -50,8 +49,6 @@ public class JavaGrepImp implements JavaGrep{
             throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
         }
 
-        BasicConfigurator.configure();
-
         JavaGrepImp javaGrepImp = new JavaGrepImp();
         javaGrepImp.setRegex(args[0]);
         javaGrepImp.setRootPath(args[1]);
@@ -60,7 +57,8 @@ public class JavaGrepImp implements JavaGrep{
         try{
             javaGrepImp.process();
         }catch (Exception ex){
-            javaGrepImp.logger.error("Error: Unable to process ", ex);
+            throw new IllegalArgumentException(ex);
+            //javaGrepImp.logger.error("Error: Unable to process ", ex);
         }
     }
 
@@ -92,6 +90,8 @@ public class JavaGrepImp implements JavaGrep{
                 files.add(file);
             }
         }
+        if (files.size() == 0)
+            throw new IOException("No Files");
         return files;
     }
 
@@ -106,6 +106,8 @@ public class JavaGrepImp implements JavaGrep{
                 lines.add(line);
             }
             bufferedReader.close();
+            if (lines.size() == 0)
+                throw new IOException("No Lines");
             return lines;
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -129,11 +131,14 @@ public class JavaGrepImp implements JavaGrep{
         try{
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outFile, true));
             for (String line: lines) {
-                bufferedWriter.write(line);
+                //bufferedWriter.write(line);
+                bufferedWriter.append(line);
                 bufferedWriter.newLine();
             }
+            bufferedWriter.flush();
+            bufferedWriter.close();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new IOException(e);
         }
     }
 
