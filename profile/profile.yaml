@@ -66,14 +66,11 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+  - name: "Simple University management"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
     git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description:  "It was a final project of my Python training course.The project had a list of students,courses and teachers. Every student must choose how many classes they will take each semester, and every teacher may teach one or more courses. Teachers should then assign grades to each student. The average of the student grades was eventually calculated. The student, courses, and teacher tables were created using the SQ"
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -95,20 +92,15 @@ professional_experience:
     description: "Preparing charts and diagrams to assist in problem analysis,Designing brochures and banners for the festivalsDesigning brochures and banners for the festivals,Supporting the university portal which includes managing to upload specific information on the portal, working with WordPress and HTML  "
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
-    # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
   - school_name: "Payame Noor University"
     duration: "2006-2011"
     degree: "Bachelor Software Engineering"
     department: "Computer Engineering"
+    # optional
     awards_achievements:
+      - "IELTS Academic 6.5"
+      - "Duolingo 110"
+
 
 #Optional section
 others:
@@ -124,7 +116,8 @@ others:
       - "Machine learning, Mehregan Institution, 2022"
   - title: "Awards"
     bullets:
-      - "Winner"
+      - "IELTS Academic 6.5"
+      - "Duolingo"
   - title: "Activities/Hobbies"
     bullets:
       - "Volleyball player"
