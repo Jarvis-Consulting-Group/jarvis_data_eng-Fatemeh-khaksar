@@ -15,7 +15,7 @@ Run using jar file:
  java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepImp ${regex} ${rootpath} ${outfile}
 ````
 
-Run using Docker Image:
+Run using Docker Image:tdh
 ````
 # pull docker image
 docker pull fatemehkhaksar/grep
