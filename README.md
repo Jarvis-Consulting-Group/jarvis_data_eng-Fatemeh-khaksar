@@ -57,7 +57,6 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - Adobe Photoshop, Khane Kargar Esfahan, April 2013
 - Business Accounting, Khane Kargar Esfahan, June 2013
 - Corel Draw, Khane Kargar Esfahan, November 2013
-- Academic IELTS score 6.5 ,2021
 - Python , Mehregan Institution,2022
 - Machine learning, Mehregan Institution, 2022
 - IELTS Academic 6.5
