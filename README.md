@@ -35,9 +35,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Simple University management**: It was a final project of my Python training course.The project had a list of students,courses and teachers. Every student must choose how many classes they will take each semester, and every teacher may teach one or more courses. Teachers should then assign grades to each student. The average of the student grades was eventually calculated. The student, courses, and teacher tables were created using the SQ
 
 
 ## Professional Experiences
@@ -50,12 +48,9 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
 **Payame Noor University (2006-2011)**, Bachelor Software Engineering, Computer Engineering
+- IELTS Academic 6.5
+- Duolingo 110
 
 
 ## Miscellaneous
@@ -65,7 +60,8 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - Academic IELTS score 6.5 ,2021
 - Python , Mehregan Institution,2022
 - Machine learning, Mehregan Institution, 2022
-- Winner
+- IELTS Academic 6.5
+- Duolingo 110
 - Volleyball player
 - Oil painting, handcraft leather bags, Reading books
 - Volunteer Moderator of English Language Club
