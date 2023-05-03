@@ -8,10 +8,12 @@ public interface HttpHelper {
 
     /**
      * Execute a HTTP Post call
+     *
      * @param uri
+     * @param stringEntity
      * @return
      */
-    HttpResponse httpPost(URI uri);
+    HttpResponse httpPost(URI uri, StringEntity stringEntity);
 
     /**
      * Execute a HTTP Get call
@@ -19,4 +21,8 @@ public interface HttpHelper {
      * @return
      */
     HttpResponse httpGet(URI uri);
+
+
+    HttpResponse httpDelete(URI uri);
+
 }
