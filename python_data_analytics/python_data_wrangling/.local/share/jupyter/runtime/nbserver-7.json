@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "notebook_dir": "/home/jovyan",
+  "password": false,
+  "pid": 7,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "a8b940a08a86d25ce1028f45ec939085302e2f1361020114",
+  "url": "http://0.0.0.0:8888/"
+}
