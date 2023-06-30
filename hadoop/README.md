@@ -16,7 +16,7 @@ To tackle particular business issues, we used Apache Hive and the Zeppelin Noteb
 - Utilizing columnar file formats to improve data access and storage
 # Hadoop Cluster
 
- ![my image](./assets/hadoopdiagram.png)
+ ![my image](./assets/hadoop.png)
 
 Big Data Tools
 - Hadoop (MapReduce,YARN,HDFS)
