@@ -16,7 +16,7 @@ To tackle particular business issues, we used Apache Hive and the Zeppelin Noteb
 - Utilizing columnar file formats to improve data access and storage
 # Hadoop Cluster
 
- ![my image](./assets/hadoop diagram.png)
+ ![my image](./assets/hadoopdiagram.png)
 
 Big Data Tools
 - Hadoop (MapReduce,YARN,HDFS)
@@ -34,7 +34,7 @@ Optimizing  Hive queries
 - Execution speeds of MapReduce and Spark were compared in order to better understand how well each programme performed in the context of our particular use case. The findings showed that Spark outperformed MapReduce in most situations, particularly for iterative and sophisticated queries.
 
 
- ![my image](./assets/Hive Project.png)
+ ![my image](./assets/HiveProject.png)
 # Improvements
 - Addressing interpreter issues: During the project, we encountered issues with the Markdown and Shell Script interpreters in Apache Zeppelin, specifically the "Interpreter process is not running" error. To resolve these issues, we can investigate the root causes, such as checking for configuration errors, ensuring the required dependencies are installed, and verifying that the interpreter settings are correctly configured.
 - Bucketing and user-defined functions are included: We can also practice tasks that include bucketing and user-defined functions (UDFs) to increase our understanding of and experience with Apache Hive. While UDFs allow users to build custom functions to handle data, bucketing is a method used in Hive to increase query speed by organizing data based on a particular column.
