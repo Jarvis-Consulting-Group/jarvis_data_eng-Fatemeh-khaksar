@@ -3,7 +3,8 @@
     {
       "awards_achievements": [
         "IELTS Academic 6.5",
-        "Duolingo 110"
+        "Duolingo 105",
+        "IELTS GENERAL 6.5"
       ],
       "degree": "Bachelor Software Engineering",
       "department": "Computer Engineering",
@@ -15,7 +16,6 @@
   "highlighted_projects": [
     {
       "description": "It was a final project of my Python training course.The project had a list of students,courses and teachers. Every student must choose how many classes they will take each semester, and every teacher may teach one or more courses. Teachers should then assign grades to each student. The average of the student grades was eventually calculated. The student, courses, and teacher tables were created using the SQ",
-      "git_url": null,
       "name": "Simple University management"
     }
   ],
@@ -27,7 +27,6 @@
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
         "JDBC App: A common application programming interface (API) called Java Database Connectivity (JDBC) gives Java programs access to database management systems. Maven was what I used to manage packages and dependencies. After running the Docker container, the PostgreSQL database stores data in the database instance. I implemented a data access object(DAO) that CRUD on the object. ",
         "Grep App: A software called Java Grep was created to search a file for lines that match a given pattern and then outputs those lines to a text file. The software receives a root directory, filters recursively through any subfolders and files, then outputs the results. read and written into files using BufferedReader, FileReader, BufferedWriter, and FileWriter.  Maven was used to handling dependencies and build the application, which was then packaged with Docker and submitted to Docker Hub."
       ],
@@ -35,17 +34,12 @@
       "name": "Core Java Apps"
     },
     {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
+      "description": "The project is based on the London Gift Shop (LGS), a gift shop. In order to improve sales and marketing strategies, the marketing team wants to enhance the technology. As a Data engineer, it is my responsibility to assist LGS by examining the purchase behaviors of its customers. By using analytics, the LGS marketing team will create focused marketing plans (such as email, events, target specials, etc.) to draw in both current and potential consumers. I used Python, Jupyter Notebook, Pandas Dataframe, Numpy, data warehousing, and data analytics to address all business requirements.",
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
     },
     {
-      "description": "",
+      "description": "This project's main goal is to investigate and assess Apache Hive's capabilities inside the Hadoop environment as a tool for tackling and resolving challenging business issues. We seek to effectively handle massive amounts of data and extract valuable information by utilising the power of Hadoop clusters and distributed technology.\nLearnings and Assessments We have studied and assessed a number of core Hadoop components during the course of this project, including MapReduce, HDFS, and YARN. Using Dataproc, we set up a Hadoop cluster on the Google Cloud Platform (GCP), which allowed us to manage and extend our resources as necessary. To tackle particular business issues, we used Apache Hive and the Zeppelin Notebook, practicing various HiveQL queries and evaluating the effectiveness of various approaches.",
       "git_url": "/hadoop",
       "name": "Hadoop"
     },
@@ -75,7 +69,8 @@
     {
       "bullets": [
         "IELTS Academic 6.5",
-        "Duolingo 110"
+        "Duolingo 105",
+        "IELTS GENERAL 6.5"
       ],
       "title": "Awards"
     },
@@ -94,6 +89,12 @@
       "description": " Creating and testing a variety of apps using technologies including Java, Linux, and Docker. I had the chance to use the Agile process to communicate with team members. taking part in daily scrum meetings using Agile methodology.",
       "duration": "FEB 2023-present",
       "title": "Data Engineer"
+    },
+    {
+      "company": "Volta Institution",
+      "description": "Upgrading systems, when necessary, which includes installing a new version of the windows, installing additional memory (RAM), replacing hard drive with SSD and replacing graphic cards. Resolving system and program issues such as when the internet is disconnected, specific software doesn\u0026#39;t work for students in the class and when the quality sound of the recorder is low. Analyze and support requests for computer system services. Installing and updating hardware such as Printer, Scanner, Projector and software such as Antivirus, Zoom, Movie player, special software like VSCode, Adobe Photoshop, AutoCAD for training courses. Designing brochures using Adobe Photoshop",
+      "duration": "Sep 2011-current",
+      "title": "Computer Systems Specialist"
     },
     {
       "company": "Volta Institution",
