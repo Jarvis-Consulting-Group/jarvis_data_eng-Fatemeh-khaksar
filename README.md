@@ -52,7 +52,6 @@ Learnings and Assessments We have studied and assessed a number of core Hadoop c
 - IELTS Academic 6.5
 - Duolingo 105
 - IELTS GENERAL 6.5
-- Duolingo 110
 
 
 ## Miscellaneous
@@ -64,7 +63,6 @@ Learnings and Assessments We have studied and assessed a number of core Hadoop c
 - IELTS Academic 6.5
 - Duolingo 105
 - IELTS GENERAL 6.5
-- Duolingo 110
 - Volleyball player
 - Oil painting, handcraft leather bags, Reading books
 - Volunteer Moderator of English Language Club
